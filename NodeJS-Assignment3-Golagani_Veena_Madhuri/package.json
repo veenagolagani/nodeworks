@@ -1,0 +1,12 @@
+
+{
+  "name": "NodeJS-Assignment3",
+  "version": "1.0.0",
+  "description": "NodeJS assignment 3 for map, reduce, filter",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Veena-Madhuri",
+  "license": "ISC"
+}
