@@ -1,0 +1,169 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fffbfb;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+.Myheader {
+    background-color: #111111;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-height: 50px;
+    max-width: 100%;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #040404;
+    width: 90px;
+    height: calc(100vh - 70px);
+    position: fixed;
+
+    left: 0;
+    padding: 70px 10px ;
+    padding-left: 50px;
+    text-align: left;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+    color: #00bcd4;
+    text-decoration: underline;
+}
+.sidebar a.active {
+    color: #00bcd4 !important;
+    text-decoration: underline !important;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex; /* Ensure image and text are side by side */
+    margin-top: 10px; /* Offset for header */
+    margin-left: 150px; /* Leave space for the sidebar */
+  
+    gap: 20px; /* Space between image and text */
+    align-items: center; /* Vertical alignment */
+}
+
+/* Image Styles */
+.MyImage {
+    width:500px; /* Adjust as needed */
+    height: 650px; /* Adjust as needed */
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+/* Text Styles */
+.det {
+    display: flex; /* Take up the remaining space */
+    text-align: left;
+    padding-left: 50px;
+    font-size: large;
+   margin:20px;
+    flex-direction: column;
+   
+    flex-wrap: wrap;
+}
+
+.det h2, .det h3 ,.det h4{
+    margin: 0 100px 10px 0px ;
+    color: #333;
+    text-align: left;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 0px 20px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Social Icons Styling */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00bcd4;
+    transform: scale(1.2);
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Aligns image and text to the top */
+    gap: 20px; /* Space between image and text */
+    border:1px solid black;
+}
+
+.project-image {
+    width: 300px; /* Adjust the width of the image */
+    height: 200px;
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+} 
+
+.project-description {
+    flex: 1; /* Makes the text take available space */
+    font-size: 14px;
+    line-height: 1.6; /* Better readability */
+    color: #333; /* Text color */
+}
