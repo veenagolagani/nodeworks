@@ -1,0 +1,6 @@
+Veena | 20 | Female | India
+Phoebe | 20 | Female | India
+Monica | 25 | Female | Los Angeles
+Chandler | 25 | Male | New York
+Rachel | 25 | Female | New York
+Joey | 25 | Male | Los Angeles
